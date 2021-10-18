@@ -1,4 +1,5 @@
 name: static
+version: 0.1.1
 title: static
 description: ABT Node blocklet project
 keywords:
@@ -12,9 +13,8 @@ author:
   email: zhanghan@arcblock.io
 repository:
   type: git
-  url: git+https://github.com/blocklet/create-blocklet.git
+  url: 'git+https://github.com/blocklet/create-blocklet.git'
 specVersion: 1.1.1
-version: 0.1.0
 logo: logo.png
 files:
   - logo.png
@@ -25,13 +25,13 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: "*"
+    prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-community: ""
-documentation: ""
-homepage: ""
-license: ""
+community: ''
+documentation: ''
+homepage: ''
+license: ''
 charging:
   price: 0
   tokens: []
@@ -39,12 +39,13 @@ charging:
 timeout:
   start: 60
 requirements:
-  abtnode: ">=1.4.0"
-  os: "*"
-  cpu: "*"
+  abtnode: '>=1.4.0'
+  os: '*'
+  cpu: '*'
 scripts:
   dev: npm run start
 environments: []
-capabilities: {}
+capabilities:
+  clusterMode: false
 screenshots: []
 children: []

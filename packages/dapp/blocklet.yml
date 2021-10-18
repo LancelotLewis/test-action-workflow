@@ -1,4 +1,5 @@
 name: dapp
+version: 0.1.1
 title: dapp
 description: An ABT Node blocklet
 keywords:
@@ -12,9 +13,8 @@ author:
   email: zhanghan@arcblock.io
 repository:
   type: git
-  url: git+https://github.com/blocklet/create-blocklet.git
+  url: 'git+https://github.com/blocklet/create-blocklet.git'
 specVersion: 1.1.1
-version: 0.1.0
 logo: logo.png
 files:
   - build
@@ -27,13 +27,13 @@ interfaces:
   - type: web
     name: publicUrl
     path: /
-    prefix: "*"
+    prefix: '*'
     port: BLOCKLET_PORT
     protocol: http
-community: ""
-documentation: ""
-homepage: ""
-license: ""
+community: ''
+documentation: ''
+homepage: ''
+license: ''
 charging:
   price: 0
   tokens: []
@@ -41,9 +41,9 @@ charging:
 timeout:
   start: 60
 requirements:
-  abtnode: ">=1.4.0"
-  os: "*"
-  cpu: "*"
+  abtnode: '>=1.4.0'
+  os: '*'
+  cpu: '*'
 scripts:
   preStart: node server/hooks/pre-start.js
   dev: npm run start
@@ -56,8 +56,9 @@ environments:
   - name: CHAIN_HOST
     description: What's endpoint of the chain?
     required: true
-    default: https://beta.abtnetwork.io/api/
+    default: 'https://beta.abtnetwork.io/api/'
     secure: false
-capabilities: {}
+capabilities:
+  clusterMode: false
 screenshots: []
 children: []
