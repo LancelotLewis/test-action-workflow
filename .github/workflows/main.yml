@@ -12,9 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        with:
-          ref: master
-          token: ${{ secrets.GIT_HUB_TOKEN }}
 
       - name: Set yarn cache
         uses: c-hive/gha-yarn-cache@v2
