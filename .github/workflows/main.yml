@@ -4,7 +4,7 @@ env:
   ACCESS_SECRET: zgsGfbgYkmCYYpfFhFY5QY2rsXTPWw3DDjrrZ9aQRpZ9WgkczYiDbdP6ELay1GnDSDkXtQ6vAiiWLNZJfyTZhbc5
   DEVELOPER_SK: '0x6b55315d865ee61f0d2ff7e93df057a09f6985f77c2a6376ca05f64aa2bf72129f2f1b8c6b13836c36a7272d33a77d475e63770243610a3c26aabd07501ad283'
   REGISTRY: https://8080-fuchsia-cicada-r1hvnx90.ws-us17.gitpod.io/admin/blocklet-registry-service/publicUrl/
-  ABTNODE: https://8080-fuchsia-cicada-r1hvnx90.ws-us17.gitpod.io/admin/api
+  ABTNODE: https://8080-fuchsia-cicada-r1hvnx90.ws-us17.gitpod.io/admin/
 
 on:
   push:
